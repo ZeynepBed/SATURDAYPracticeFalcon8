@@ -1,0 +1,14 @@
+students st = new students();
+st.firstName = 'Zeynep';
+st.lastName = 'Begum';
+st.classYear = '2018';
+st.majorstream = 'IT';
+string result = st.generateReport();
+system.debug('result is '+ result);
+students st1 = new students();
+st1.firstName = 'Ayse';
+st1.lastName = 'Bilir';
+st1.classYear = '2016';
+st1.majorstream = 'IT';
+string result1 = st1.generateReport();
+system.debug('result is '+ result1);
